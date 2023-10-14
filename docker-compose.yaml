@@ -8,7 +8,7 @@ services:
     ports:
       - "80:3000"
     volumes:
-        - app-data:./apps/pulic/images
+      - app-data:./apps/public/images
   
   db:
     image: "mariadb"
